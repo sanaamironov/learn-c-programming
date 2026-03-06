@@ -23,19 +23,38 @@ By working through this repository, students should learn how to:
 ## Repository Layout
 
 ```text
-how_to_program_in_c_repo/
+learn-c-programming/
 ├── Makefile
 ├── README.md
-│   
+├── LICENSE
+├── .gitignore
 ├── include/
 │   └── stats.h
-├── ├── 01_basics/
-│── ├── 02_control_flow/
-│── ├── 03_functions_arrays/
-│── ├── 04_strings_pointers/
-│── └── 05_structs_files/
-├── build/
-└── bin/
+├── src/
+│   ├── 01_basics/
+│   │   ├── 01_hello.c
+│   │   ├── 02_formatted_io.c
+│   │   └── 03_math_ops.c
+│   ├── 02_control_flow/
+│   │   ├── 01_if_else.c
+│   │   ├── 02_switch_menu.c
+│   │   ├── 03_while_loop.c
+│   │   ├── 04_for_loop.c
+│   │   └── 05_guess_number.c
+│   ├── 03_functions_arrays/
+│   │   ├── 01_functions_intro.c
+│   │   ├── 02_array_sum.c
+│   │   └── 03_array_stats.c
+│   ├── 04_strings_pointers/
+│   │   ├── 01_string_length.c
+│   │   ├── 02_string_copy.c
+│   │   ├── 03_pointer_intro.c
+│   │   └── 04_swap_demo.c
+│   └── 05_structs_files/
+│       ├── 01_student_struct.c
+│       └── 02_gradebook_file.c
+├── bin/
+└── build/
 ```
 
 ## Prerequisites
