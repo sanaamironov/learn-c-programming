@@ -26,18 +26,14 @@ By working through this repository, students should learn how to:
 how_to_program_in_c_repo/
 ├── Makefile
 ├── README.md
-├── docs/
-│   ├── syllabus-path.md
-│   ├── style-guide.md
-│   └── instructor-notes.md
+│   
 ├── include/
 │   └── stats.h
-├── src/
-│   ├── 01_basics/
-│   ├── 02_control_flow/
-│   ├── 03_functions_arrays/
-│   ├── 04_strings_pointers/
-│   └── 05_structs_files/
+├── ├── 01_basics/
+│── ├── 02_control_flow/
+│── ├── 03_functions_arrays/
+│── ├── 04_strings_pointers/
+│── └── 05_structs_files/
 ├── build/
 └── bin/
 ```
